@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="./output.css" rel="stylesheet" /> -->
+  </head>
+  <style>
+    body {
+      background: linear-gradient(to right, #6158c2, #9c57b5);
+      /* background-color: #00dbde;
+      background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%); */
+      /* background-color: #fbda61;
+      background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%); */
+    }
+    button {
+      background-color: #034694;
+    }
+
+    #c1 {
+      /* background-color: #fff; */
+      background-color: #8ec5fc;
+      background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+      box-shadow: 10px 10px 15px rgb(0, 0, 0);
+      /* background-color: #4158d0;
+      background-image: linear-gradient(
+        43deg,
+        #4158d0 0%,
+        #c850c0 46%,
+        #ffcc70 100%
+      ); */
+    }
+  </style>
+  <body class="text-white flex items-center justify-center h-lvh">
+    <div
+      id="c1"
+      class="bg-gradient-to-r from-red-700 to-pink-500 text-black max-h-lvh max-w-sm p-5 rounded-lg shadow-lg"
+    >
+      <h2 class="text-center pb-8 text-3xl font-bold underline">Login</h2>
+      <form action="">
+        <div class="mb-6">
+          <label for="Email"
+            >Email:
+            <input
+              class="rounded-md mb-2 w-full px-2 py-1 border border-black hover:border-red-700"
+              type="email"
+              placeholder="Enter your Email"
+          /></label>
+        </div>
+        <div class="mb-10">
+          <label for="Password" class="pb-3"
+            >Password:
+            <input
+              class="rounded-md mb-2 w-full px-2 py-1 border border-black"
+              type="password"
+              placeholder="Enter your Password"
+          /></label>
+        </div>
+
+        <button
+          class="bg-red-800 mb-4 text-white font-extrabold text-center rounded-md w-full p-2 hover:bg-blue-950"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
